@@ -1,0 +1,278 @@
+body{
+	background:rgb(20, 21, 27);
+}
+.brand{
+	height:150px;
+}
+.brand img.background{
+	height: 150px;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.brand .brand-logo-container{
+	text-align: center;
+}
+.brand img.brand-logo{
+	width:100%;
+	margin-top:27px;
+}
+.brand .search{
+	width:100%;
+	margin-top:52.5px;
+	border:0;
+	box-shadow: none;
+	background:rgba(255,255,255,0.2);
+	color:rgba(255,255,255, 0.8);
+	font-weight: bolder;
+	padding-left:20px;
+}
+.brand #search:hover, .brand #search:focus{
+	border-bottom:none;
+	box-shadow: none;
+}
+.brand .btn-group{
+	margin-top:57px;
+	text-align: center;
+}
+.button-login-transparent{
+	box-shadow: none;
+	background: transparent;
+	border:1px solid white;
+}
+.button-login-transparent:hover{
+	background: transparent;
+}
+.button-signup-style{
+	margin-left:15px;
+	box-shadow: 0px 0px 15px 5px rgba(229, 21, 21, 0.3);
+	background: linear-gradient(to right, rgb(229, 21, 21), rgb(248, 87, 16));
+}
+.button-signup-style:hover, .button-signup-style:focus{
+	box-shadow: 0px 0px 15px 5px rgba(229, 21, 21, 0.5);
+}
+.navbar{
+	background:rgb(34, 35, 43);
+	height:70px;
+	border-bottom:3px solid rgb(229, 21, 21);
+}
+.navbar .btn-group{
+	height: 70px;
+}
+.navbar a{
+	display: inline-block;
+	height:70px !important;
+	line-height: 70px;
+	font-size: 14px;
+	font-weight: bolder;
+	color:white;
+	text-transform: uppercase;
+	padding:0 20px;
+}
+.navbar a:hover, .navbar a.active{
+	background: rgb(229, 21, 21);
+}
+.jumbotron{
+}
+.jumbotron .jumbotron-image img{
+	width:100%;
+}
+.jumbotron .jumbotron-text{
+	color:white;
+	width:100%;
+	position: absolute;
+	background: linear-gradient(rgba(16,17,22, 0),rgba(16,17,22, 1));
+}
+.jumbotron .jumbotron-text h1, 
+.jumbotron .jumbotron-text h2, 
+.jumbotron .jumbotron-text h3, 
+.jumbotron .jumbotron-text h4, 
+.jumbotron .jumbotron-text h5, 
+.jumbotron .jumbotron-text h6{
+	font-weight: bolder;
+}
+.btn-group-platforms{
+	padding-top:15px;
+}
+.btn-group-platforms a{
+	color:rgb(118,118,118);
+	font-weight: bolder;
+	padding:15px;
+	border-radius: 2px;
+	margin-bottom:15px;
+}
+.btn-group-platforms .platforms{
+	background:rgb(34, 35, 43);
+}
+.btn-group-platforms .platforms-transparent{
+}
+.btn-group-platforms .platforms-buy_now{
+	float:right;
+	color:white;
+	background: linear-gradient(to right, rgb(229, 21, 21), rgb(248, 87, 16));
+	margin-top:-15px;
+}
+.my-carousel{
+	background: rgb(26, 27, 34)
+}
+.my-carousel .image-group{
+	padding:20px 0;
+}
+.my-carousel .col{
+	padding:0;
+}
+.my-carousel .s3 .image{
+	margin-top: 35px;
+}
+.my-carousel .s2 .image{
+	margin-top: 70px;
+}
+.my-carousel .image{
+	width:100%;
+}
+.reviews{
+	color:white;
+	margin-top:40px;
+}
+.reviews h5{
+	font-weight: bolder;
+	font-size:20px;
+}
+.reviews a.btn-transparent{
+	margin-top: 5px;
+	background:transparent;
+	box-shadow: none;
+	border:1px solid white;
+}
+.thumbnails .card-image .card-title{
+	font-size:18px;
+	font-weight: bolder;
+	width: 100%;
+}
+.thumbnails .card-reveal{
+	color:white;
+	text-shadow:0px 0px 5px rgba(0,0,0,1);
+	background: rgba(0,0,0, 0.5)
+}
+.thumbnails .card-reveal .card-title{
+	font-size:18px;
+	font-weight: bolder;
+}
+.thumbnails .card-reveal .text i{
+	font-size:15px;
+	vertical-align: middle;
+}
+.thumbnails .card-reveal .text{
+	font-size:12px;
+}
+.heading{
+	color:white;
+	font-weight: bolder;
+	font-size:20px;
+	text-transform: uppercase;
+}
+.inline-block{
+	display: inline-block;
+	vertical-align: middle;
+}
+.btn-transparent{
+	vertical-align: middle;
+	margin-top: 5px;
+	background:transparent;
+	box-shadow: none;
+	border:1px solid white;
+}
+.btn-transparent:hover{
+	background:transparent;
+}
+.posts-game-box{
+	margin-top:40px;
+}
+.posts{
+	color: white;
+	margin-top:20px;
+}
+.posts h5{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.padfix{
+	height:25px;
+}
+.post-info{
+	color:rgb(156,156,156);
+	font-size:12px;
+}
+.post-data{
+	color:rgb(141,141,142);
+}
+.post-heading a{
+	color:white;
+}
+.post-author .name{
+	color:rgb(229, 21, 21);
+}
+.post-author{
+	font-size:12px;
+	color:rgb(150,150,150);
+}
+.image-fix{
+	overflow: hidden;
+}
+.collapsible-gamer, .collapsible-gamer .collapsible-header, .collapsible-gamer .collapsible-body{
+	background:rgb(34, 35, 43);
+	border-color:rgb(39, 38, 42);
+	color:white;
+}
+.collapsible-gamer .collapsible-header-top{
+	height:70px;
+	display: table-cell;
+  	vertical-align: bottom;
+  	background: transparent;
+  	border-bottom: 0;
+  	text-shadow:0px 0px 6px rgba(0,0,0,0.8);
+}
+.collapsible-gamer .collapsible-header .index{
+	display: inline-block;
+	width:50px;
+	font-weight: bolder;
+}
+.empty-section{
+	
+}
+.navbar.noborder{
+	border-bottom: 0;
+}
+.my-footer{
+	height:320px;
+	overflow: hidden;
+}
+.my-footer img{
+	width: 100%;
+}
+.my-footer .textbox{
+	position: absolute;
+	width: 100%;
+	height:320px;
+	background: linear-gradient(rgba(16,17,22, 0.8),rgba(16,17,22, 1));
+	color:white;
+	padding-top:30px;
+}
+.my-footer .textbox h5{
+	font-size: 24px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.my-footer .textbox li a{
+	display: block;
+	color:rgb(144,144,144);
+	font-size: 16px;
+	font-weight: normal;
+	margin:15px auto;
+}
+.my-footer .textbox ul{
+	padding-top: 10px;
+}
+.responsive-iframe{
+	width:100%;
+}
